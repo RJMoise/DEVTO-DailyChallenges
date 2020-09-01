@@ -4,9 +4,11 @@ def countVowels(string):
     lowerCount = 0
 
     for stringChars in userString:
-        if stringChars == "A" or stringChars == "E" or stringChars == "I"or stringChars == "O"or stringChars == "U":
+        # Checks for uppercase vowels and counts up when found
+        if stringChars == "A" or stringChars == "E" or stringChars == "I" or stringChars == "O" or stringChars == "U":
             upperCount += 1
-        elif stringChars == "a" or stringChars == "e" or stringChars == "i"or stringChars == "o"or stringChars == "u":
+        # Checks for lowercase vowels and counts up when found
+        elif stringChars == "a" or stringChars == "e" or stringChars == "i" or stringChars == "o" or stringChars == "u":
             lowerCount += 1
 
     print("There was " + str(lowerCount) + " lowercase vowels and " +
