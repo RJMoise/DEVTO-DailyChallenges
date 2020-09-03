@@ -1,0 +1,5 @@
+def factoralDecomp():
+    pass
+
+
+factoralDecomp()
