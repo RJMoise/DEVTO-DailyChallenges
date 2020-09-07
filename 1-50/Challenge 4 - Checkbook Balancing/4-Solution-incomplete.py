@@ -1,5 +1,0 @@
-def checkbookBalance():
-    pass
-
-
-checkbookBalance()
